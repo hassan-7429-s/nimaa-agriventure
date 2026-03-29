@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>FoodVentures </title>
+    <title> Nimaa Agriventures </title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <a class="logo" href="#home">FoodVentures</a>
+      <a class="logo" href="#home">Nimaa Agriventures</a>
       <nav class="main-nav" id="mainNav">
         <a href="#about">Who We Are</a>
         <a href="#technology">Technology</a>
@@ -24,19 +24,14 @@
 
     <main>
       <section id="home" class="hero">
-        <div class="hero-media">
-          <div class="slideshow" aria-label="Hero visual story">
-            <img src="public/Abby project 23.jpeg" alt="Young greenhouse plants" class="slide active" />
-            <img src="public/Abby project 24.jpeg" alt="Team working in the field" class="slide" />
-            <img src="public/Abby project 25.jpeg" alt="Harvested peppers in baskets" class="slide" />
-            <img src="public/Abby project 26.jpeg" alt="Fresh seedlings in trays" class="slide" />
-            <img src="public/Abby project 27.jpeg" alt="Rows of healthy crops" class="slide" />
-            <img src="public/Abby project 28.jpeg" alt="Field team tending young plants" class="slide" />
-          </div>
-          <div class="hero-media-label">Video-style field & greenhouse story</div>
-        </div>
+        <video class="hero-video" autoplay muted loop playsinline poster="public/Abby project 23.jpeg">
+          <source src="public/hero-video.mp4" type="video/mp4" />
+          Your browser does not support HTML video.
+        </video>
+        <div class="hero-overlay"></div>
 
         <div class="hero-copy">
+          
           <h1>Sustainably Feeding Global Cities</h1>
           <p>We are your global greenhouse operator bringing modern Controlled Environment Agriculture from the Netherlands to the world.</p>
           <a class="cta" href="#about">Learn More</a>
@@ -44,77 +39,198 @@
       </section>
 
       <section id="about" class="section">
-        <h2>Who We Are</h2>
-        <p>We firmly believe we have proven solutions to sustainably produce fresh & tasty food. The key is not only increasing production, but minimizing environmental impact and making local greenhouses profitable.</p>
-        <ul>
-          <li>Pioneer spirit: new greenhouse locations in frontier markets.</li>
-          <li>Global expertise: FVEC in Netherlands plus local execution worldwide.</li>
-          <li>Hands-on expatriate growers for local team mentor support.</li>
-        </ul>
+        <div class="section-intro">
+          <span class="section-tag">About Nimaa Agriventures</span>
+          <h2>Market-ready greenhouse farming that delivers fresh quality.</h2>
+          <p>We build local greenhouse production systems that combine Dutch horticulture excellence with East African execution. The result is reliable, year-round vegetables for hotels, retailers, and export markets.</p>
+        </div>
+
+        <div class="section-grid">
+          <div>
+            <p>Our practical, hands-on projects bring measurable value to farmers and buyers. By designing climate-smart greenhouses, optimizing crop choices, and supporting market-ready operations, we reduce risk and increase margins.</p>
+            <ul>
+              <li>Fresh, premium produce with consistent quality</li>
+              <li>Low-water, low-input greenhouse systems</li>
+              <li>Local partnerships that build sustainable supply chains</li>
+            </ul>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-card">
+              <strong>30%</strong>
+              <span>Water savings compared to field production</span>
+            </div>
+            <div class="stat-card">
+              <strong>12+</strong>
+              <span>Active greenhouse projects in East Africa</span>
+            </div>
+            <div class="stat-card">
+              <strong>95%</strong>
+              <span>Customer satisfaction from fresh produce buyers</span>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section id="technology" class="section alt">
-        <h2>Technology</h2>
-        <p>Proven, state-of-the-art technologies developed in cooperation with the Dutch greenhouse ecosystem.</p>
-        <h3>Controlled Environment Agriculture (CEA)</h3>
-        <ul>
-          <li>Advanced climate control and LED grow lighting for year-round production.</li>
-          <li>Hybrid heating/cooling sources with low environmental footprint.</li>
-          <li>Hydroponic growing, precision irrigation, biological pest control, and GlobalGAP certification.</li>
-        </ul>
+        <div class="section-intro">
+          <span class="section-tag">Technology</span>
+          <h2>Proven controlled-environment agriculture systems.</h2>
+          <p>We deploy modern greenhouse technology to support high-yield, low-risk production in challenging climates.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>Climate control</h3>
+            <p>Precision temperature, humidity and ventilation systems keep crops healthy through every season.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Hydroponic systems</h3>
+            <p>Water-efficient growing techniques deliver stronger root systems and faster harvest cycles.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Biological pest management</h3>
+            <p>Natural pest control keeps produce clean and reduces chemical input requirements.</p>
+          </article>
+        </div>
       </section>
 
       <section id="track-record" class="section">
-        <h2>Current Operations</h2>
-        <p>Proven success in frontier markets made us ambitious to grow. Our approach covers feasibility, design, construction, operations and marketing.</p>
+        <div class="section-intro">
+          <span class="section-tag">Operations</span>
+          <h2>Proven execution across the value chain.</h2>
+          <p>From feasibility and design to crop management and market delivery, our team supports every part of the greenhouse lifecycle.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>Turnkey delivery</h3>
+            <p>Design, build and operational support from one trusted partner.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Market-ready produce</h3>
+            <p>High-quality vegetables packed for supermarkets, restaurants and exporters.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Local capacity building</h3>
+            <p>Training and on-the-ground mentorship for growers and managers.</p>
+          </article>
+        </div>
       </section>
 
       <section id="gallery" class="section alt">
-        <h2>Field & Greenhouse Gallery</h2>
-        <p>Explore additional imagery from our greenhouse and field operations.</p>
+        <div class="section-intro">
+          <span class="section-tag">Our Work</span>
+          <h2>Real projects, real farm results.</h2>
+          <p>These snapshots show our greenhouse installations, crop teams and production fields in East Africa.</p>
+        </div>
 
         <div class="image-gallery">
           <img src="public/Abby project 29.jpeg" alt="Growing plants in rows" />
           <img src="public/ABBY PROJECT(16).jpg.jpeg" alt="Post-harvest peppers" />
           <img src="public/ABBY PROJECT(20).jpg.jpeg" alt="Team in a greenhouse" />
-          <img src="public/ABBY PROJECT(22).jpg.jpeg" alt="Tomato plants inside structure" />
           <img src="public/nimaa picture1.jpeg" alt="Field preparation work" />
-          <img src="public/WhatsApp Image 2026-03-24 at 10.57.08 PM.jpeg" alt="Greenhouse crops and team" />
         </div>
       </section>
 
       <section id="investors" class="section alt">
-        <h2>For Investors</h2>
-        <p>FoodVentures provides access to the booming market of high-quality fresh food in developing countries, with a scalable model and stable returns.</p>
-        <ul>
-          <li>9–15% unleveraged ROIC potential</li>
-          <li>End-to-end development and operations</li>
-          <li>Existing investors: EQ Capital, Wagram, Prominent</li>
-        </ul>
+        <div class="section-intro">
+          <span class="section-tag">Investors</span>
+          <h2>Track record for strong agricultural returns.</h2>
+          <p>We target stable growth by combining proven greenhouse design with local market demand for fresh vegetables.</p>
+        </div>
+
+        <div class="section-grid">
+          <div>
+            <ul>
+              <li>Predictable crop planning for year-round income</li>
+              <li>Low-risk operations supported by Dutch horticulture know-how</li>
+              <li>Transparent reporting and investor-ready project structure</li>
+            </ul>
+          </div>
+          <div class="stats-grid">
+            <div class="stat-card">
+              <strong>9–15%</strong>
+              <span>Targeted unleveraged ROIC</span>
+            </div>
+            <div class="stat-card">
+              <strong>3</strong>
+              <span>Greenhouse locations under active management</span>
+            </div>
+            <div class="stat-card">
+              <strong>100%</strong>
+              <span>Transparent financial and operational reporting</span>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section id="sustainability" class="section">
-        <h2>Sustainability</h2>
-        <p>We care about planet, people, and consistent quality every day. Our systems focus on efficiency and fair employment.</p>
-        <ul>
-          <li>Minimal water and fertilizer usage</li>
-          <li>Biological pest control, no pesticide residue</li>
-          <li>Job creation, staff development, gender equality</li>
-        </ul>
+        <div class="section-intro">
+          <span class="section-tag">Sustainability</span>
+          <h2>Better food, better environment, better livelihoods.</h2>
+          <p>Our farms are designed to conserve resources, protect nature, and create meaningful local jobs.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>Water efficiency</h3>
+            <p>Advanced irrigation and recirculation systems reduce water use by more than 30%.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Eco-friendly production</h3>
+            <p>Biological pest control and clean inputs keep produce safe and natural.</p>
+          </article>
+          <article class="feature-card">
+            <h3>People first</h3>
+            <p>Fair wages, local skills training, and gender-inclusive employment are core to our operations.</p>
+          </article>
+        </div>
       </section>
 
       <section id="joinus" class="section alt">
-        <h2>Join Us</h2>
-        <p>We are continuously looking for hands-on ambitious growers with a global mindset. Work with our international experts and expand your career in modern horticulture.</p>
-        <a class="cta" href="#contacts">Contact Now</a>
+        <div class="section-intro">
+          <span class="section-tag">Join Us</span>
+          <h2>Partner with modern farming leaders.</h2>
+          <p>Whether you are a buyer, investor, or greenhouse grower, we have a tailored partnership model for your goals.</p>
+          <a class="cta" href="#contacts">Start the conversation</a>
+        </div>
       </section>
 
       <section id="contacts" class="section">
-        <h2>Contact</h2>
-        <p>FoodVentures, World Horti Center, Europa 1, 2672 ZX Naaldwijk, The Netherlands</p>
-        <p>WhatsApp: +250 780 548 283</p>
-        <p>Email: info@foodventures.eu</p>
-        <p>YouTube: FoodVentures </p>
+        <div class="section-intro">
+          <span class="section-tag">Contact</span>
+          <h2>Talk to our agriculture team.</h2>
+        </div>
+        <div class="contact-grid">
+          <div>
+            <strong>Head Office</strong>
+            <p>World Horti Center, Europa 1, 2672 ZX Naaldwijk, The Netherlands</p>
+          </div>
+          <div>
+            <strong>Local Operations</strong>
+            <p>Rwanda and East Africa greenhouse projects</p>
+          </div>
+          <div>
+            <strong>Send a message</strong>
+            <form id="contactForm" class="contact-form">
+              <label>
+                Name
+                <input type="text" name="name" required />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" required />
+              </label>
+              <label>
+                Message
+                <textarea name="message" rows="4" required></textarea>
+              </label>
+              <button type="submit" class="cta">Submit</button>
+              <p id="contactStatus" class="contact-status"></p>
+            </form>
+          </div>
+        </div>
       </section>
     </main>
 

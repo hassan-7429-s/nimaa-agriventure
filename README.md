@@ -9,10 +9,12 @@ A lightweight static implementation of FoodVentures' content structure designed 
 
 ## Run
 - Open `index.html` in a browser.
-- Or use npm to run the local dev server:
+- Or use npm to run the local dev server with MongoDB backend:
   - `npm install`
+  - copy `Backend/.env.example` to `Backend/.env`
+  - update `Backend/.env` with your `MONGODB_URI`
   - `npm run dev`
-- Optionally run a local web server:
+- Optionally run a simple static preview without backend:
   - Python 3: `python -m http.server 8000`
   - Node.js: `npx serve .`
 
